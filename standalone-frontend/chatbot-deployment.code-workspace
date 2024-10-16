@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../chatbot-deployment"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "chatbot-deployment"
+	}
+}

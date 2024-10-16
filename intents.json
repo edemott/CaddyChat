@@ -1,0 +1,168 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Whats up",
+        "Yo",
+        "Ni Hao",
+        "Hola",
+        "Bonjour",
+        "Ciao",
+        "Hallo"
+      ],
+      "responses": [
+        "Hello there!",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "club_50_yards",
+      "patterns": [
+        "What club should I use for 50 yards?",
+        "Which club for a 50-yard shot?",
+        "Recommend a club for 50 yards",
+        "Club for close approach shot"
+      ],
+      "responses": [
+        "For a 50-yard shot, a lob wedge or sand wedge is recommended."
+      ]
+    },
+    {
+      "tag": "club_100_yards",
+      "patterns": [
+        "What club should I use for 100 yards?",
+        "Which club for a 100-yard shot?",
+        "Recommend a club for 100 yards"
+      ],
+      "responses": [
+        "For a distance of 100 yards, you might want to use a pitching wedge or a 9 iron."
+      ]
+    },
+    {
+      "tag": "club_120_yards",
+      "patterns": [
+        "What club should I use for 120 yards?",
+        "Which club for a 120-yard shot?",
+        "Recommend a club for 120 yards"
+      ],
+      "responses": [
+        "For a distance of 120 yards, a pitching wedge or a 9 iron is typically used."
+      ]
+    },
+    {
+      "tag": "club_150_yards",
+      "patterns": [
+        "What club should I use for 150 yards?",
+        "Which club for a 150-yard shot?",
+        "Recommend a club for 150 yards"
+      ],
+      "responses": [
+        "For a distance of 150 yards, a 7 iron or 8 iron is typically a good choice."
+      ]
+    },
+    {
+      "tag": "club_175_yards",
+      "patterns": [
+        "What club should I use for 175 yards?",
+        "Which club for a 175-yard shot?",
+        "Recommend a club for 175 yards"
+      ],
+      "responses": [
+        "For a distance of 175 yards, a 5 iron or a 6 iron might be suitable."
+      ]
+    },
+    {
+      "tag": "club_200_yards",
+      "patterns": [
+        "What club should I use for 200 yards?",
+        "Which club for a 200-yard shot?",
+        "Recommend a club for 200 yards",
+        "When to use the driver?",
+        "Really long",
+        "1000 yards"
+      ],
+      "responses": [
+        "For a distance of 200 yards, consider using a 3 iron or a 5 wood, or a driver for over 200."
+      ]
+    },
+    {
+      "tag": "club_fairway",
+      "patterns": [
+        "What should I hit from the fairway?",
+        "Which club should I use from the fairway?",
+        "Recommend a club for hitting from the fairway"
+      ],
+      "responses": [
+        "From the fairway, your choice of club depends on the distance. Can you provide the distance?"
+      ]
+    },
+    {
+      "tag": "club_bunker",
+      "patterns": [
+        "What club for a bunker shot?",
+        "Which club should I use in a bunker?",
+        "Recommend a club for a bunker shot"
+      ],
+      "responses": [
+        "For a bunker shot, a sand wedge is usually the best option."
+      ]
+    },
+    {
+      "tag": "club_tee_par_3",
+      "patterns": [
+        "Which club for a tee shot on a par 3?",
+        "What club should I use for a tee shot on a par 3?",
+        "Recommend a club for a tee shot on a par 3"
+      ],
+      "responses": [
+        "For a tee shot on a par 3, the club depends on the distance to the hole. Can you provide the distance?"
+      ]
+    },
+    {
+      "tag": "club_rough",
+      "patterns": [
+        "What club do I use from the rough?",
+        "Which club for hitting from the rough?",
+        "Recommend a club for hitting from the rough"
+      ],
+      "responses": [
+        "Hitting from the rough can be tricky. A hybrid or an iron with more loft, like a 7 or 8 iron, can be helpful."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the golfer bring two pairs of pants? In case he got a hole in one.",
+        "Why do golfers always carry a spare pair of trousers? Just in case they get a hole in one!"
+      ]
+    }
+  ]
+}
